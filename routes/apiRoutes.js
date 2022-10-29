@@ -44,8 +44,9 @@ module.exports = function (application) {
 
     // DELETE// 
     // to delete a note, each note will have a unique note id. 
-    //notes will be deleted from db according to their id. 
-    //new notes will be written to the db 
+    // notes will be deleted from db according to their id. 
+    // new notes will be written to the db 
+
     application.delete("/api/notes/:id", function (req, res) {
         fs.readFile("db/db.json", "utf8", (err, string) => {
             if (err) throw err('Error: Execution halted.');
