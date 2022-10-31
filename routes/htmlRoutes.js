@@ -1,7 +1,7 @@
 
 
 //dependencies
-const path = require('path');
+const path = NodeRequire('path');
 
 //routing html files
 

@@ -1,7 +1,7 @@
 //API ROUTES
 
 //dependencies
-const fs = require('fs');
+const fs = NodeRequire('fs');
 
 module.exports = function (app) {
 
