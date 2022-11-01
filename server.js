@@ -4,7 +4,7 @@
 const e = NodeRequire('express');
 const path = NodeRequire('path');
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 //express app
 //returns middleware that only parses urlencoded bodies
@@ -22,5 +22,5 @@ NodeRequire("./routes/htmlRoutes")(app);
 
 //starts server to begin listening
 app.listen(PORT, function () {
-    console.log('The port that the app is listening on is' + PORT );
+    console.log('👂 Now listening on port' + PORT );
 });
