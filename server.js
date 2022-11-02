@@ -1,24 +1,23 @@
 
 //declares dependencies for app
 
-const e = NodeRequire('express');
-const path = NodeRequire('path');
+const express = require('express');
+const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-//express app
 //returns middleware that only parses urlencoded bodies
-app.use(e.urlencoded({ extended: true 
+app.use(express.urlencoded({ extended: true 
 }));
 
 //sets up a static public directory
-app.use(e.json());
-app.use(e.static('public'));
+app.use(express.json());
+app.use(express.static('public'));
 
 //routers
 
-NodeRequire("./routes/apiRoutes")(app);
-NodeRequire("./routes/htmlRoutes")(app);
+require("./routes/apiRoutes")(app);
+require("./routes/htmlRoutes")(app);
 
 //starts server to begin listening
 app.listen(PORT, function () {
