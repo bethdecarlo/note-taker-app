@@ -1,26 +1,34 @@
 
 
-  # Note Taker App
+  # Notorius Note Taker App
   ![License Badge](https://img.shields.io/github/license/bethdecarlo/team-profile-generator)
   ## Description
-  A command-line application that takes in information about employees and generates a webpage that displays a summary each employee.
+  A node application that allows the user to ✏️ create a note, 📁 save it, and 🗑 delete saved notes. 
+
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
   * [Contribution](#contribution)
-  * [Tests](#tests)
+  * [Demo](#demo)
   * [Questions](#questions)
   * [License](#license)
   ## Installation
-  * \n git clone  
-  * \n npm i
-  *  \n node index.js
+    git clone 
+    npm i
+    node server.js
   ## Usage
   Open Source
   ## Contribution
-  UCF Coding Bootcamp
-  ## Tests
-  npm test
+  [UCF Coding Bootcamp](https://github.com/UCF-Coding-Boot-Camp)
+  ## Demo
+  To use the application, click <i>get started</i>.
+  To create a note, click ✏️.
+  To save your active note, click 📁.
+  To delete a saved note, click 🗑.
+
+![Application screenshot](/public/assets/demo.png)
+
+
   ## Questions
   * Checkout my [GitHub profile](https://github.com/bethdecarlo)
   
